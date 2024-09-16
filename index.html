@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Линия Защиты</title>
+  <link rel="stylesheet" href="./css/style.css?_v=091904f733a72c1d28b8ac187a6a04b4">
+</head>
+
+<body>
+  <input class="visually-hidden" id="email-address" type="text" value="job_kova@mail.ru">
+  <svg width="0" height="0" style="position:absolute"><symbol viewBox="0 0 24 24" id="search" xmlns="http://www.w3.org/2000/svg">
+    <path d="M18.5 18.5L22 22M21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21C16.7467 21 21 16.7467 21 11.5Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol></svg>
+  <div class="wrapper">
+    <header class="header">
+  <div class="container-fluid">
+    <div class="header__inner">
+      <div class="header__left">
+        <span class="burger-text">меню</span>
+        <button class="burger-btn">
+          <div class="burger-icon"></div>
+        </button>
+        <a href="#hero" class="logo">
+          <img src="./images/logo.png" alt="logo">
+        </a>
+      </div>
+
+      <div class="header__right">
+        <span class="phone__text">Наш телефон для связи</span>
+
+        <a class="phone" href="tel:+78120000000">
+          <img src="./images/phone.png" alt="phone">
+          <span>+7&#160;(812)&#160;000-00-00</span>
+        </a>
+
+        <button class="btn modal-open" data-path="modal-call">обратный звонок</button>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="burger">
+  <div class="burger__overlay">
+    <div class="burger__menu">
+      <div class="burger__head">
+        <div class="burger__head-content">
+          <a class="logo" href="#hero">
+            <img src="./images/contacts/logo.png" alt="logo">
+          </a>
+          <span>
+            Защита от&#160;наступления субсидиарной ответственности.
+            Штатный юрист не&#160;может, нужны профи.
+          </span>
+        </div>
+        <button class="burger__close">
+          <span class="burger__close-line"></span>
+          <span class="burger__close-line"></span>
+        </button>
+      </div>
+      <div class="burger__content">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#bankruptcy" class="nav__link nav__active">
+                <span class="nav__dot"></span>
+                <span class="nav__numb">01</span>
+                <span class="nav__text">Статистика</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#grounds" class="nav__link">
+                <span class="nav__dot"></span>
+                <span class="nav__numb">02</span>
+                <span class="nav__text">Основания</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#carefully" class="nav__link">
+                <span class="nav__dot"></span>
+                <span class="nav__numb">03</span>
+                <span class="nav__text">Мифы</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#expert" class="nav__link">
+                <span class="nav__dot"></span>
+                <span class="nav__numb">04</span>
+                <span class="nav__text">Гарантии</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#why" class="nav__link">
+                <span class="nav__dot"></span>
+                <span class="nav__numb">05</span>
+                <span class="nav__text">Важно знать</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#plan" class="nav__link">
+                <span class="nav__dot"></span>
+                <span class="nav__numb">06</span>
+                <span class="nav__text">Анализ</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#lawyer" class="nav__link">
+                <span class="nav__dot"></span>
+                <span class="nav__numb">07</span>
+                <span class="nav__text">О&#160;юристе</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link">
+                <span class="nav__dot"></span>
+                <span class="nav__numb">08</span>
+                <span class="nav__text">Дипломы и&#160;сертификаты</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#cases" class="nav__link">
+                <span class="nav__dot"></span>
+                <span class="nav__numb">09</span>
+                <span class="nav__text">Успешные дела</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contacts" class="nav__link">
+                <span class="nav__dot"></span>
+                <span class="nav__numb">10</span>
+                <span class="nav__text">Контакты</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="burger__footer">
+        <span class="burger__footer-title">Закажите обратный звонок:</span>
+        <form action="#" class="burger__footer-form form uniForm">
+          <!-- Hidden Required Fields -->
+          <input type="hidden" name="project_name" value="Линия Защиты">
+          <input type="hidden" name="admin_email" value="">
+          <input type="hidden" name="form_subject" value="Заказ обратного звонка">
+          <!-- END Hidden Required Fields -->
+          <div class="form__item">
+            <input type="tel" class="form__input _req" name="Телефон" placeholder="Ваш телефон" required>
+          </div>
+          <button class="btn form__submit" type="submit">заказать звонок</button>
+        </form>
+        <span class="burger__footer-text">или позвоните нам по&#160;телефону: <a href="tel:+78120000000">+7 812 000 00
+            00</a></span>
+        <div class="burger__footer-m">
+          <a class="phone" href="tel:+78120000000">
+            <img src="./images/icons/phone-1-b.png" alt="phone">
+            <span>+7&#160;(812)&#160;000-00-00</span>
+          </a>
+          <button class="btn modal-open" data-path="modal-call">обратный звонок</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <main class="main">
+      <button class="thank-btn modal-open" data-path="modal-thank"></button>
+      <section class="fixed">
+        <h2 class="visually-hidden"></h2>
+        <div class="container-fluid">
+          <div class="fixed__inner">
+            <nav class="nav fixed__nav">
+              <ul class="nav__list">
+                <li class="nav__item"><a href="#bankruptcy" class="nav__link"><span class="nav__dot"></span><span
+                      class="nav__numb">01</span></a></li>
+                <li class="nav__item"><a href="#grounds" class="nav__link"><span class="nav__dot"></span><span
+                      class="nav__numb">02</span></a></li>
+                <li class="nav__item"><a href="#carefully" class="nav__link"><span class="nav__dot"></span><span
+                      class="nav__numb">03</span></a></li>
+                <li class="nav__item"><a href="#expert" class="nav__link"><span class="nav__dot"></span><span
+                      class="nav__numb">04</span></a></li>
+                <li class="nav__item"><a href="#why" class="nav__link"><span class="nav__dot"></span><span
+                      class="nav__numb">05</span></a></li>
+                <li class="nav__item"><a href="#plan" class="nav__link"><span class="nav__dot"></span><span
+                      class="nav__numb">06</span></a></li>
+                <li class="nav__item"><a href="#lawyer" class="nav__link"><span class="nav__dot"></span><span
+                      class="nav__numb">07</span></a></li>
+                <li class="nav__item"><a href="#certificates" class="nav__link"><span class="nav__dot"></span><span
+                      class="nav__numb">08</span></a></li>
+                <li class="nav__item"><a href="#consultation" class="nav__link"><span class="nav__dot"></span><span
+                      class="nav__numb">09</span></a></li>
+                <li class="nav__item"><a href="#contacts" class="nav__link"><span class="nav__dot"></span><span
+                      class="nav__numb">10</span></a></li>
+              </ul>
+            </nav>
+            <div class="socials">
+              <a href="https://wa.me/+79062485884" class="socials__link" target="_blank" >
+                <img src="./images/icons/whatsapp.png" alt="whatsapp">
+              </a>
+              <a href="https://t.me/+79062485884" class="socials__link" target="_blank" >
+                <img src="./images/icons/telegram.png" alt="telegram">
+              </a>
+              <span class="socials__text">Свяжитесь с&#160;нами</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="hero" id="hero">
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero__elements">
+              <div class="hero__element hero__element--1">
+                <div class="hero__element-text" data-text="крах">
+                  <span class="mark">&#8216;&#8217;</span>
+                  <span class="color"><span>Крах</span></span> карьеры и&#160;личных амбиций&#8230;
+                  <span class="mark">&#8216;&#8217;</span>
+                </div>
+              </div>
+              <div class="hero__element hero__element--2">
+                <div class="hero__element-text" data-text="долг">
+                  <span class="mark">&#8216;&#8217;</span>
+                  Огромный корпоративный <span class="color"><span>долг</span></span>
+                  &#171;повесят&#187; на&#160;Вас&#8230;
+                  <span class="mark">&#8216;&#8217;</span>
+                </div>
+              </div>
+              <div class="hero__element hero__element--3">
+                <div class="hero__element-text" data-text="нет шансов">
+                  <span class="mark">&#8216;&#8217;</span>
+                  <span class="color"><span>Нет шансов</span></span> начать все с&#160;начала,
+                  вести свой бизнес&#8230;
+                  <span class="mark">&#8216;&#8217;</span>
+                </div>
+              </div>
+            </div>
+            <div class="hero__content">
+              <div class="hero__title-box">
+                <h1 class="hero__title">грозит</h1>
+                <h2 class="hero__subtitle">субсидиарная ответственность?</h2>
+              </div>
+              <div class="hero__info">
+                Непомерная сумма задолженности по&#160;субсидиарной ответственности будет сопровождать ответчика всю жизнь.
+                Фактически это
+                означает <span class="color"><span>&#171;финансовую смерть&#187;</span></span>, потому что <span>долг нельзя
+                  списать в&#160;банкротстве &#8230;</span>
+              </div>
+              <div class="hero__btns">
+                <button class="btn modal-open" data-path="modal-consultation">
+                  <span>ПОЛУЧИТЬ ЗАЩИТУ</span>
+                  <img class="btn__arrow" src="./images/arrow-btn.png" alt="arrow">
+                </button>
+                <a href="#bankruptcy" class="btn btn--gray">
+                  УЗНАТЬ ПОДРОБНЕЕ
+                  <img class="btn__arrow" src="./images/arrow-btn.png" alt="arrow">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bankruptcy" id="bankruptcy">
+        <div class="container">
+          <div class="bankruptcy__inner">
+            <h2 class="title up">Каждое 2-е банкротство проходит<br>
+              с&#160;привлечением к&#160;субсидиарной ответственности
+            </h2>
+            <div class="bankruptcy__descr up">
+              <p>
+                Субсидиарная ответственность&#160;&#8212; право взыскания долга не&#160;только с&#160;должника, но&#160;и&#160;с&#160;любого лица,
+                контролирующего его (КДЛ).
+                Это&#160;могут&#160;быть&#160;собственники предприятия/бизнеса, поручители по&#160;кредитам, ответственные
+                лица ООО&#160;(акционеры, учредители топ-менеджеры, главные бухгалтеры и&#160;тд).
+              </p>
+            </div>
+            <h3 class="bankruptcy__subtitle up">Как это происходит?</h3>
+            <div class="bankruptcy__items">
+              <div class="bankruptcy__items-row">
+                <div class="bankruptcy__item bankruptcy__item--1 up" data-numb="01">
+                  <img src="./images/bankruptcy/1.png" alt="bankruptcy" class="bankruptcy__item-img">
+                  <div class="bankruptcy__item-info">
+                    <h4 class="bankruptcy__item-title">
+                      Процедура
+                      банкротства
+                    </h4>
+                    <p>
+                      Субсидиарная ответственность&#160;&#8212; право взыскания долга не&#160;только с&#160;должника, но&#160;и&#160;с&#160;любого лица,
+                      контролирующего его (КДЛ).
+                      Это могут быть собственники предприятия/бизнеса, поручители по&#160;кредитам, ответственные
+                      лица ООО
+                    </p>
+                  </div>
+                </div>
+                <div class="bankruptcy__item bankruptcy__item--2 up" data-numb="02">
+                  <img src="./images/bankruptcy/2.png" alt="bankruptcy" class="bankruptcy__item-img">
+                  <div class="bankruptcy__item-info">
+                    <h4 class="bankruptcy__item-title">
+                      Нехватка средств
+                      для выплат
+                    </h4>
+                    <p>
+                      После продажи имущества компании начинается выплата долгов. Всегда остается значительная часть
+                      непогашенных требований
+                      кредиторов.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="bankruptcy__items-row">
+                <div class="bankruptcy__item bankruptcy__item--3 up" data-numb="03">
+                  <img src="./images/bankruptcy/3.png" alt="bankruptcy" class="bankruptcy__item-img">
+                  <div class="bankruptcy__item-info">
+                    <h4 class="bankruptcy__item-title">
+                      Поиск &#171;козла
+                      отпущения&#187;
+                    </h4>
+                    <p>
+                      Оставшуюся задолженность предъявляют в&#160;качестве субсидиарной ответственности к&#160;генеральному
+                      директору, учредителям,
+                      главному бухгалтеру, топ-менеджменту и&#160;даже юристам.
+                    </p>
+                  </div>
+                </div>
+                <div class="bankruptcy__item bankruptcy__item--4 up" data-numb="04">
+                  <img src="./images/bankruptcy/4.png" alt="bankruptcy" class="bankruptcy__item-img">
+                  <div class="bankruptcy__item-info">
+                    <h4 class="bankruptcy__item-title">
+                      Привлечение
+                      к&#160;&#171;субсидиарке&#187;
+                    </h4>
+                    <p>
+                      Признание субсидиарной ответственности означает, что корпоративные задолженности стали личными.
+                      Это
+                      могут быть огромные
+                      суммы долга! Вечного долга&#8230;.
+                      Вернуть финансовую свободу практически невозможно.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bankruptcy__mobile up">
+              <img src="./images/bankruptcy/mobile.png" alt="mobile">
+            </div>
+            <button class="btn bankruptcy__btn up modal-open" data-path="modal-statistic">
+              СТАТИСТИКА РОСТА ПРИВЛЕЧЕНИЯ К&#160;СУБСИДИАРНОЙ ОТВЕТСТВЕННОСТИ
+              <img class="btn__arrow" src="./images/arrow-btn-red.png" alt="arrow">
+            </button>
+          </div>
+        </div>
+      </section>
+      <div class="bg-2" id="grounds">
+        <section class="grounds">
+          <div class="container">
+            <div class="grounds__inner">
+              <h2 class="title up">Популярные основания привлечения
+                к&#160;субсидиарной ответственности</h2>
+              <div class="swiper grounds__swiper up">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+  <div class="grounds__item">
+    <div class="grounds__item-content" data-numb="01">
+      <h3 class="grounds__item-title">За&#160;долги перед бюджетом</h3>
+      <div class="grounds__item-descr">
+        <p>
+          Федеральная налоговая служба действует жестко и&#160;без раздумий. Если задолженность перед
+          государством превышает&#160;50%
+          требований других кредиторов, то&#160;ФНС автоматически привлечёт Вас к&#160;субсидиарной
+          ответственности.
+        </p>
+      </div>
+      <div class="grounds__item-text">
+        <span class="mark">&#8216;&#8217;</span>
+        Государственная машина не&#160;знает жалости, стране нужны деньги.
+        <span class="mark">&#8216;&#8217;</span>
+      </div>
+    </div>
+    <img class="grounds__item-img grounds__item-img-d" src="./images/grounds/1-d.png" alt="1-d">
+    <img class="grounds__item-img grounds__item-img-m" src="./images/grounds/1-m.png" alt="1-m">
+  </div>
+</div>
+                  <div class="swiper-slide">
+  <div class="grounds__item">
+    <div class="grounds__item-content" data-numb="02">
+      <h3 class="grounds__item-title">За&#160;долги перед бюджетом</h3>
+      <div class="grounds__item-descr">
+        <p>
+          Федеральная налоговая служба действует жестко и&#160;без раздумий. Если задолженность перед
+          государством превышает&#160;50%
+          требований других кредиторов, то&#160;ФНС автоматически привлечёт Вас к&#160;субсидиарной
+          ответственности.
+        </p>
+      </div>
+      <div class="grounds__item-text">
+        <span class="mark">&#8216;&#8217;</span>
+        Государственная машина не&#160;знает жалости, стране нужны деньги.
+        <span class="mark">&#8216;&#8217;</span>
+      </div>
+    </div>
+    <img class="grounds__item-img grounds__item-img-d" src="./images/grounds/1-d.png" alt="1-d">
+    <img class="grounds__item-img grounds__item-img-m" src="./images/grounds/1-m.png" alt="1-m">
+  </div>
+</div>
+                  <div class="swiper-slide">
+  <div class="grounds__item">
+    <div class="grounds__item-content" data-numb="03">
+      <h3 class="grounds__item-title">За&#160;долги перед бюджетом</h3>
+      <div class="grounds__item-descr">
+        <p>
+          Федеральная налоговая служба действует жестко и&#160;без раздумий. Если задолженность перед
+          государством превышает&#160;50%
+          требований других кредиторов, то&#160;ФНС автоматически привлечёт Вас к&#160;субсидиарной
+          ответственности.
+        </p>
+      </div>
+      <div class="grounds__item-text">
+        <span class="mark">&#8216;&#8217;</span>
+        Государственная машина не&#160;знает жалости, стране нужны деньги.
+        <span class="mark">&#8216;&#8217;</span>
+      </div>
+    </div>
+    <img class="grounds__item-img grounds__item-img-d" src="./images/grounds/1-d.png" alt="1-d">
+    <img class="grounds__item-img grounds__item-img-m" src="./images/grounds/1-m.png" alt="1-m">
+  </div>
+</div>
+                  <div class="swiper-slide">
+  <div class="grounds__item">
+    <div class="grounds__item-content" data-numb="04">
+      <h3 class="grounds__item-title">За&#160;долги перед бюджетом</h3>
+      <div class="grounds__item-descr">
+        <p>
+          Федеральная налоговая служба действует жестко и&#160;без раздумий. Если задолженность перед
+          государством превышает&#160;50%
+          требований других кредиторов, то&#160;ФНС автоматически привлечёт Вас к&#160;субсидиарной
+          ответственности.
+        </p>
+      </div>
+      <div class="grounds__item-text">
+        <span class="mark">&#8216;&#8217;</span>
+        Государственная машина не&#160;знает жалости, стране нужны деньги.
+        <span class="mark">&#8216;&#8217;</span>
+      </div>
+    </div>
+    <img class="grounds__item-img grounds__item-img-d" src="./images/grounds/1-d.png" alt="1-d">
+    <img class="grounds__item-img grounds__item-img-m" src="./images/grounds/1-m.png" alt="1-m">
+  </div>
+</div>
+                  <div class="swiper-slide">
+  <div class="grounds__item">
+    <div class="grounds__item-content" data-numb="05">
+      <h3 class="grounds__item-title">За&#160;долги перед бюджетом</h3>
+      <div class="grounds__item-descr">
+        <p>
+          Федеральная налоговая служба действует жестко и&#160;без раздумий. Если задолженность перед
+          государством превышает&#160;50%
+          требований других кредиторов, то&#160;ФНС автоматически привлечёт Вас к&#160;субсидиарной
+          ответственности.
+        </p>
+      </div>
+      <div class="grounds__item-text">
+        <span class="mark">&#8216;&#8217;</span>
+        Государственная машина не&#160;знает жалости, стране нужны деньги.
+        <span class="mark">&#8216;&#8217;</span>
+      </div>
+    </div>
+    <img class="grounds__item-img grounds__item-img-d" src="./images/grounds/1-d.png" alt="1-d">
+    <img class="grounds__item-img grounds__item-img-m" src="./images/grounds/1-m.png" alt="1-m">
+  </div>
+</div>
+                </div>
+                <div class="swiper-button-prev">
+                  <svg class="icon icon--swiper-arrow" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path fill-rule="evenodd" fill="rgb(208, 217, 208)"
+                      d="M21.500,-0.000 C33.374,-0.000 42.1000,9.626 42.1000,21.500 C42.1000,33.374 33.374,42.1000 21.500,42.1000 C9.626,42.1000 -0.000,33.374 -0.000,21.500 C-0.000,9.626 9.626,-0.000 21.500,-0.000 Z" />
+                    <path fill-rule="evenodd" fill="rgb(50, 64, 67)"
+                      d="M21.500,3.594 C31.389,3.594 39.406,11.611 39.406,21.500 C39.406,31.389 31.389,39.406 21.500,39.406 C11.611,39.406 3.594,31.389 3.594,21.500 C3.594,11.611 11.611,3.594 21.500,3.594 Z" />
+                    <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                      d="M24.488,26.475 L24.488,28.466 L16.522,21.994 L24.488,15.523 L24.488,17.515 L18.514,22.156 L24.488,26.475 Z" />
+                  </svg>
+                </div>
+                <div class="swiper-button-next">
+                  <svg class="icon icon--swiper-arrow" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path fill-rule="evenodd" fill="rgb(208, 217, 208)"
+                      d="M21.500,-0.000 C33.374,-0.000 42.1000,9.626 42.1000,21.500 C42.1000,33.374 33.374,42.1000 21.500,42.1000 C9.626,42.1000 -0.000,33.374 -0.000,21.500 C-0.000,9.626 9.626,-0.000 21.500,-0.000 Z" />
+                    <path fill-rule="evenodd" fill="rgb(50, 64, 67)"
+                      d="M21.500,3.594 C31.389,3.594 39.406,11.611 39.406,21.500 C39.406,31.389 31.389,39.406 21.500,39.406 C11.611,39.406 3.594,31.389 3.594,21.500 C3.594,11.611 11.611,3.594 21.500,3.594 Z" />
+                    <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                      d="M24.488,26.475 L24.488,28.466 L16.522,21.994 L24.488,15.523 L24.488,17.515 L18.514,22.156 L24.488,26.475 Z" />
+                  </svg>
+                </div>
+              </div>
+              <div class="swiper-pagination grounds__pagination up"></div>
+            </div>
+          </div>
+        </section>
+        <section class="carefully" id="carefully">
+          <div class="container">
+            <div class="carefully__inner">
+              <span class="carefully__warning up">
+                <img src="./images/icons/warning.png" alt="warning">
+                Будьте осторожны
+              </span>
+              <h2 class="title up">Самостоятельные попытки разрешить спор
+                редко оказываются эффективными</h2>
+              <div class="carefully__items">
+                <div class="carefully__item" style="background-image: url('./images/carefully/1.png');">
+                  <span class="carefully__item-mif">миф 1</span>
+                  <div class="carefully__item-content">
+                    <h3 class="carefully__item-title">
+                      <span class="mark">&#8216;&#8217;</span>
+                      Спишу долги
+                      <span class="mark">&#8216;&#8217;</span>
+                    </h3>
+                    <span class="carefully__item-descr">
+                      Списание долгов
+                      по&#160;физическому лицу
+                      не&#160;спасет.
+                    </span>
+                    <button class="carefully__item-btn">Почему?</button>
+                    <span class="carefully__item-info">
+                      Для защиты от&#160;субсидиарной ответственности нужны специальные знания, опыт, практика, постоянное
+                      отслеживание тенденций в
+                      банкротстве.
+                    </span>
+                  </div>
+                </div>
+                <div class="carefully__item" style="background-image: url('./images/carefully/2.png');">
+                  <span class="carefully__item-mif">миф 2</span>
+                  <div class="carefully__item-content">
+                    <h3 class="carefully__item-title">
+                      <span class="mark">&#8216;&#8217;</span>
+                      У&#160;нас есть юрист
+                      <span class="mark">&#8216;&#8217;</span>
+                    </h3>
+                    <span class="carefully__item-descr">
+                      Штатный юрист
+                      на&#160;предприятии<br>
+                      не&#160;поможет.
+                    </span>
+                    <button class="carefully__item-btn">Почему?</button>
+                    <span class="carefully__item-info">
+                      Для защиты от&#160;субсидиарной ответственности нужны специальные знания, опыт, практика, постоянное
+                      отслеживание тенденций в
+                      банкротстве.
+                    </span>
+                  </div>
+                </div>
+                <div class="carefully__item" style="background-image: url('./images/carefully/3.png');">
+                  <span class="carefully__item-mif">миф 3</span>
+                  <div class="carefully__item-content">
+                    <h3 class="carefully__item-title">
+                      <span class="mark">&#8216;&#8217;</span>
+                      Скрыть имущество
+                      <span class="mark">&#8216;&#8217;</span>
+                    </h3>
+                    <span class="carefully__item-descr">
+                      Часто по&#160;совету юриста должник делает отчуждении имущества и&#160;передает его своим родственникам.
+                    </span>
+                    <button class="carefully__item-btn">Почему?</button>
+                    <span class="carefully__item-info">
+                      Для защиты от&#160;субсидиарной ответственности нужны специальные знания, опыт, практика, постоянное
+                      отслеживание тенденций в
+                      банкротстве.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="expert" id="expert">
+          <div class="expert__person-wrapper">
+            <div class="expert__person">
+              <img src="./images/expert/expert.png" alt="expert" class="expert__person-img">
+            </div>
+          </div>
+          <div class="container">
+            <div class="expert__inner">
+              <div class="expert__info" data-text="эксперт">
+                <h2 class="expert__title up">
+                  Своевременное обращение
+                  за&#160;консультацией к&#160;эксперту
+                  гарантирует,
+                </h2>
+                <span class="expert__subtitle up">
+                  что <span class="color"><span>вы&#160;не&#160;доспустите ошибок,</span></span> которые будут
+                  чреваты серьезными последствиями
+                </span>
+                <div class="expert__items-wrapper">
+                  <h3 class="expert__items-title up">
+                    Уже в&#160;рамках первой консультации в&#160;бюро
+                    &#171;Юридическая линия защиты&#187; <span>Вы&#160;получите:</span>
+                  </h3>
+                  <div class="expert__items">
+                    <div class="expert__item up">
+                      <img src="./images/expert/arrow.png" alt="arrow" class="expert__item-arrow">
+                      <span>Первичную <strong>юридическую оценку</strong> вашей ситуации</span>
+                    </div>
+                    <div class="expert__item up">
+                      <img src="./images/expert/arrow.png" alt="arrow" class="expert__item-arrow">
+                      <span><strong>Прогноз исхода</strong> судебного процесса и&#160;пошаговый план решения вашего
+                        спора</span>
+                    </div>
+                    <div class="expert__item up">
+                      <img src="./images/expert/arrow.png" alt="arrow" class="expert__item-arrow">
+                      <span>В&#160;результате у&#160;вас будет <strong>план действий</strong> для достижения положительного
+                        результата в&#160;споре</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="expert__person">
+                <img src="./images/expert/expert.png" alt="expert" class="expert__person-img">
+              </div> -->
+              <div class="expert__person-info" data-text="эксперт">
+                <img src="./images/expert/expert-m.png" alt="expert" class="expert__person-mob">
+                <span class="expert__person-subtitle up">эксперт по&#160;защите от&#160;субсидиарной ответственности</span>
+                <span class="expert__person-name up">Анастасия Порохова</span>
+                <img src="./images/expert/signature.png" alt="signature" class="expert__person-signature up">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="banner banner--consultation" id="banner--consultation">
+          <div class="container">
+            <div class="banner__inner">
+              <div class="banner__box up">
+                <div class="banner__info">
+                  <h2 class="banner__title">
+                    Получите консультацию
+                    сегодня, чтобы быть уверенным
+                    в&#160;завтрашнем дне!
+                  </h2>
+                  <span class="banner__phone-text">или позвоните по&#160;номеру телефону</span>
+                  <span class="banner__phone">+7 000 00 00</span>
+                </div>
+                <div class="banner__img-wrapper">
+                  <img src="./images/banner/1.png" alt="banner-img" class="banner__img">
+                </div>
+                <a href="#!" class="btn modal-open" data-path="modal-consultation">
+                  ПОЛУЧИТЬ ЗАЩИТУ
+                  <img class="btn__arrow" src="./images/arrow-btn.png" alt="arrow">
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="bg-3">
+        <img src="./images/bg/bg-3.png" alt="bg-3" class="bg-3__img">
+        <section class="why" id="why">
+          <div class="container">
+            <div class="why__inner">
+              <div class="why__cols">
+                <div class="why__text-box up">
+                  <h2 class="why__title">
+                    Почему важно обратиться
+                    именно к&#160;<span class="why__title--color">практикующим
+                      юристам</span>
+                  </h2>
+                  <span class="why__subtitle">
+                    по&#160;защите от&#160;субсидиарной
+                    ответственности?
+                  </span>
+                </div>
+                <div class="why__col">
+                  <div class="why__items">
+                    <div class="why__item">
+                      <div class="why__item-images">
+                        <img src="./images/why/1.png" alt="why" class="why__item-img">
+                      </div>
+                      <div class="why__item-descr">
+                        Пятнадцать лет юридической практики, <strong>позволяет знать как в&#160;реальности,</strong> а&#160;не&#160;в
+                        теории, избежать субсидиарной
+                        ответственности!
+                      </div>
+                    </div>
+                    <div class="why__item">
+                      <div class="why__item-images">
+                        <img src="./images/why/2.png" alt="why" class="why__item-img">
+                      </div>
+                      <div class="why__item-descr">
+                        Пятнадцать лет юридической практики, <strong>позволяет знать как в&#160;реальности,</strong> а&#160;не&#160;в
+                        теории, избежать субсидиарной
+                        ответственности!
+                      </div>
+                    </div>
+                    <div class="why__item">
+                      <div class="why__item-images">
+                        <img src="./images/why/3.png" alt="why" class="why__item-img">
+                      </div>
+                      <div class="why__item-descr">
+                        Пятнадцать лет юридической практики, <strong>позволяет знать как в&#160;реальности,</strong> а&#160;не&#160;в
+                        теории, избежать субсидиарной
+                        ответственности!
+                      </div>
+                    </div>
+                    <div class="why__item">
+                      <div class="why__item-images">
+                        <img src="./images/why/4.png" alt="why" class="why__item-img">
+                      </div>
+                      <div class="why__item-descr">
+                        Пятнадцать лет юридической практики, <strong>позволяет знать как в&#160;реальности,</strong> а&#160;не&#160;в
+                        теории, избежать субсидиарной
+                        ответственности!
+                      </div>
+                    </div>
+                    <div class="why__item">
+                      <div class="why__item-images">
+                        <img src="./images/why/5.png" alt="why" class="why__item-img">
+                      </div>
+                      <div class="why__item-descr">
+                        Пятнадцать лет юридической практики, <strong>позволяет знать как в&#160;реальности,</strong> а&#160;не&#160;в
+                        теории, избежать субсидиарной
+                        ответственности!
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="plan" id="plan">
+          <div class="container">
+            <div class="plan__inner">
+              <h2 class="title up">
+                Эксперт проанализирует Вашу ситуацию
+                и&#160;представит честное заключение с&#160;планом действий
+              </h2>
+              <span class="plan__subtitle up">Наши юристы всегда готовят два плана действий:</span>
+              <div class="plan__items">
+                <div class="plan__item plan__item-a">
+                  <h4 class="plan__item-title">
+                    <span class="plan__item-title--color">План А</span> &#8211;<br>
+                    позитивное развитие дела&#160;&#8212;
+                  </h4>
+                  <span class="plan__item-subtitle">клиент отбивается от&#160;претензии по&#160;СО.</span>
+                  <span class="plan__item-info">
+                    Этот план может быть реализован, даже если уже <span class="color">вынесено судебное решение</span>
+                    о&#160;привлечение к
+                    субсидиарной ответственности!
+                  </span>
+                </div>
+                <div class="plan__item plan__item-b">
+                  <h4 class="plan__item-title">
+                    <span class="plan__item-title--color">План Б</span> &#8211;<br>
+                    худшее развитие по&#160;худшему сценарию&#160;&#8212;
+                  </h4>
+                  <span class="plan__item-subtitle">индивидуальная линия защиты для человека.</span>
+                  <span class="plan__item-info">
+                    Этот план может быть реализован, даже если уже <span class="color">вынесено судебное решение</span>
+                    о&#160;привлечение к
+                    субсидиарной ответственности!
+                  </span>
+                </div>
+              </div>
+              <h3 class="result__title up">Быть уверенным в&#160;позитивном решении позволяет:</h3>
+              <ul class="result__info-list">
+                <li class="result__info-item up"><strong>Стратегическое планирование</strong> судебной защиты для
+                  достижения обозначенной цели.</li>
+                <li class="result__info-item up"><strong>Тактическое управление</strong> судебным процессом, оперативное
+                  реагирование на&#160;события каждого этапа.</li>
+              </ul>
+              <div class="result__box">
+                <div class="result__box-item result__box-item--1 up">
+                  <h4 class="result__box-item-title">
+                    А&#160;в&#160;результате работы
+                    Вы&#160;сохраните финансовую
+                    свободу действий
+                  </h4>
+                  <span>
+                    и&#160;получите <strong>полный пакет
+                      документов</strong> включая решения
+                    суда
+                  </span>
+                </div>
+                <img src="./images/plan/result.png" alt="result" class="result__img">
+                <img src="./images/plan/result-m.png" alt="result" class="result__img-m">
+                <div class="result__box-item result__box-item--2 up">
+                  <h4 class="result__box-item-title">
+                    Судейский
+                    акт КДЛ
+                  </h4>
+                  <span>
+                    подтверждающий отказ в&#160;субсидиарной ответственности
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="banner banner--defense" id="banner--defense">
+        <div class="container">
+          <div class="banner__inner">
+            <div class="banner__box up">
+              <div class="banner__info">
+                <h2 class="banner__title">
+                  Начнем помогать уже сегодня!
+                </h2>
+                <div class="banner__text">
+                  <strong>Чтобы оценить перспективы вашего&#160;дела</strong>
+                  <span>достаточно 10-15 минут.</span>
+                  Расскажите о&#160;вашей ситуации и&#160;получите
+                  оценку
+                </div>
+                <span class="banner__phone-text">или позвоните по&#160;номеру телефону</span>
+                <span class="banner__phone">+7 000 00 00</span>
+              </div>
+              <div class="banner__img-wrapper">
+                <img src="./images/banner/2.png" alt="banner-img" class="banner__img">
+              </div>
+              <a href="#!" class="btn modal-open" data-path="modal-consultation">
+                ПОЛУЧИТЬ ЗАЩИТУ
+                <img class="btn__arrow" src="./images/arrow-btn.png" alt="arrow">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="lawyer" id="lawyer">
+        <div class="container-fluid">
+          <div class="lawyer__inner">
+            <div class="lawyer__left">
+              <div class="lawyer__left-item up">
+                <span class="lawyer__left-subtitle">эксперт по&#160;защите от&#160;субсидиарной ответственности</span>
+                <span class="lawyer__left-name">Анастасия Порохова</span>
+                <img src="./images/lawyer/signature.png" alt="signature" class="lawyer__left-signature">
+              </div>
+            </div>
+            <div class="lawyer__right" data-text="юрист">
+              <span class="lawyer__subtitle up">
+                Ваши интересы <span>будет защищать
+                  юрист</span>
+              </span>
+              <h2 class="lawyer__title up">Порохова Анастасия</h2>
+              <span class="lawyer__info up">
+                <span><strong>эксперт</strong> в&#160;области защиты</span> от&#160;наступления
+                субсидиарной ответственности
+              </span>
+              <div class="lawyer__blockquote up">
+                если прям что-то про СО,
+                то&#160;может немного высокопарно
+                &#171;защита бизнеса от&#160;злоупотреблений
+                в&#160;банкротстве&#187;
+              </div>
+              <div class="lawyer-m">
+                <div class="lawyer__left-item up">
+                  <span class="lawyer__left-subtitle">эксперт по&#160;защите от&ThinSpace; субсидиарной
+                    ответственности</span>
+                  <span class="lawyer__left-name">Анастасия Порохова</span>
+                  <img src="./images/lawyer/signature.png" alt="signature" class="lawyer__left-signature">
+                </div>
+              </div>
+              <div class="lawyer__items">
+                <div class="lawyer__item up">
+                  <span class="color"><span>&#8212;&#160;19 лет</span></span> в&#160;сфере юридической защиты
+                </div>
+                <div class="lawyer__item up">
+                  <span class="color"><span>&#8212;&#160;Юрист,</span></span> экономист, арбитражный управляющий,
+                  профессиональный медиатор
+                </div>
+                <div class="lawyer__item up">
+                  <span class="color"><span>&#8212;&#160;Член ассоциации</span></span> арбитражных управляющих &#171;СЦЭАУ&#187;
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="achievements" id="achievements">
+        <div class="container">
+          <div class="achievements__inner">
+            <div class="achievements__items">
+              <div class="achievements__item">
+                <div class="achievements__item-title-box">
+                  <h3 class="achievements__item-title">12</h3>
+                  <span class="achievements__item-subtitle">лет</span>
+                </div>
+                <div class="achievements__item-descr">
+                  Стаж работы
+                  арбитражным управляющим
+                </div>
+              </div>
+              <div class="achievements__item">
+                <div class="achievements__item-title-box">
+                  <h3 class="achievements__item-title">300+</h3>
+                  <span class="achievements__item-subtitle"> </span>
+                </div>
+                <div class="achievements__item-descr">
+                  Окончания процедур
+                  субсидиарной ответственности
+                </div>
+              </div>
+              <div class="achievements__item">
+                <div class="achievements__item-title-box">
+                  <h3 class="achievements__item-title">>3000</h3>
+                  <span class="achievements__item-subtitle">миллионов руб.</span>
+                </div>
+                <div class="achievements__item-descr">
+                  Списано задолженности
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="certificates" id="certificates">
+        <div class="container-fluid">
+          <div class="certificates__inner">
+            <h2 class="title up">Дипломы и&#160;сертификаты</h2>
+            <div class="swiper certificates__swiper swiper-btns-black">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+  <a class="certificates__item" href="./images/certificates/1.png" data-fancybox="cert">
+    <img src="./images/certificates/1.png" alt="certificates" class="certificates__item-img">
+  </a>
+</div><div class="swiper-slide">
+  <a class="certificates__item" href="./images/certificates/2.png" data-fancybox="cert">
+    <img src="./images/certificates/2.png" alt="certificates" class="certificates__item-img">
+  </a>
+</div><div class="swiper-slide">
+  <a class="certificates__item" href="./images/certificates/3.png" data-fancybox="cert">
+    <img src="./images/certificates/3.png" alt="certificates" class="certificates__item-img">
+  </a>
+</div><div class="swiper-slide">
+  <a class="certificates__item" href="./images/certificates/3.png" data-fancybox="cert">
+    <img src="./images/certificates/3.png" alt="certificates" class="certificates__item-img">
+  </a>
+</div><div class="swiper-slide">
+  <a class="certificates__item" href="./images/certificates/4.png" data-fancybox="cert">
+    <img src="./images/certificates/4.png" alt="certificates" class="certificates__item-img">
+  </a>
+</div><div class="swiper-slide">
+  <a class="certificates__item" href="./images/certificates/4.png" data-fancybox="cert">
+    <img src="./images/certificates/4.png" alt="certificates" class="certificates__item-img">
+  </a>
+</div>
+              </div>
+              <div class="swiper-button-prev">
+                <svg class="icon icon--swiper-arrow" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <path fill-rule="evenodd" fill="rgb(208, 217, 208)"
+                    d="M21.500,-0.000 C33.374,-0.000 42.1000,9.626 42.1000,21.500 C42.1000,33.374 33.374,42.1000 21.500,42.1000 C9.626,42.1000 -0.000,33.374 -0.000,21.500 C-0.000,9.626 9.626,-0.000 21.500,-0.000 Z" />
+                  <path fill-rule="evenodd" fill="rgb(50, 64, 67)"
+                    d="M21.500,3.594 C31.389,3.594 39.406,11.611 39.406,21.500 C39.406,31.389 31.389,39.406 21.500,39.406 C11.611,39.406 3.594,31.389 3.594,21.500 C3.594,11.611 11.611,3.594 21.500,3.594 Z" />
+                  <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                    d="M24.488,26.475 L24.488,28.466 L16.522,21.994 L24.488,15.523 L24.488,17.515 L18.514,22.156 L24.488,26.475 Z" />
+                </svg>
+              </div>
+              <div class="swiper-button-next">
+                <svg class="icon icon--swiper-arrow" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <path fill-rule="evenodd" fill="rgb(208, 217, 208)"
+                    d="M21.500,-0.000 C33.374,-0.000 42.1000,9.626 42.1000,21.500 C42.1000,33.374 33.374,42.1000 21.500,42.1000 C9.626,42.1000 -0.000,33.374 -0.000,21.500 C-0.000,9.626 9.626,-0.000 21.500,-0.000 Z" />
+                  <path fill-rule="evenodd" fill="rgb(50, 64, 67)"
+                    d="M21.500,3.594 C31.389,3.594 39.406,11.611 39.406,21.500 C39.406,31.389 31.389,39.406 21.500,39.406 C11.611,39.406 3.594,31.389 3.594,21.500 C3.594,11.611 11.611,3.594 21.500,3.594 Z" />
+                  <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                    d="M24.488,26.475 L24.488,28.466 L16.522,21.994 L24.488,15.523 L24.488,17.515 L18.514,22.156 L24.488,26.475 Z" />
+                </svg>
+              </div>
+            </div>
+            <div class="swiper-pagination certificates__pagination up"></div>
+          </div>
+        </div>
+      </section>
+      <section class="cases" id="cases">
+        <div class="container">
+          <div class="cases__inner">
+            <h2 class="title up">Успешные дела профильных юристов
+              позволяет быть уверенными в&#160;результате.</h2>
+            <span class="cases__subtitle up">Успешные дела профильных юристов позволяет быть уверенными в
+              результате.</span>
+            <div class="swiper cases__swiper swiper-btns-black up">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+  <div class="cases__item">
+    <div class="cases__item-info">
+      <h3 class="cases__item-title">
+        <strong>Минимизировали риски</strong> для КДЛ в&#160;отношении
+        субсидиарной ответственности <strong>ООО&#160;&#171;ГЕРМЕС&#187;,</strong>
+        дело № А56-15050/2022
+      </h3>
+      <div class="cases__item-rows">
+        <div class="cases__item-row">
+          <span>Задачи</span>
+          <span>Минимизировать риски для КДЛ в&#160;отношении субсидиарной ответственности</span>
+        </div>
+        <div class="cases__item-row">
+          <span>Обстоятельства</span>
+          <span>Введена процедура наблюдения по&#160;заявлению должника. Предъявились активные системные
+            кредиторы.</span>
+        </div>
+        <div class="cases__item-row">
+          <span>Результат</span>
+          <span>Процедура банкротства прекращена, основания для привлечения КДЛ к&#160;субсидиарной
+            ответственности минимизированы,
+            требование о&#160;привлечении не&#160;направлялось.</span>
+        </div>
+      </div>
+    </div>
+    <a href="#!" class="cases__item-link" target="_blank">См.&#160;решение суда</a>
+    <div class="cases__item-images">
+      <img src="./images/cases/1.png" alt="case" class="cases__image">
+    </div>
+  </div>
+</div>
+                <div class="swiper-slide">
+  <div class="cases__item">
+    <div class="cases__item-info">
+      <h3 class="cases__item-title">
+        <strong>Минимизировали риски</strong> для КДЛ в&#160;отношении
+        субсидиарной ответственности <strong>ООО&#160;&#171;ГЕРМЕС&#187;,</strong>
+        дело № А56-15050/2022
+      </h3>
+      <div class="cases__item-rows">
+        <div class="cases__item-row">
+          <span>Задачи</span>
+          <span>Минимизировать риски для КДЛ в&#160;отношении субсидиарной ответственности</span>
+        </div>
+        <div class="cases__item-row">
+          <span>Обстоятельства</span>
+          <span>Введена процедура наблюдения по&#160;заявлению должника. Предъявились активные системные
+            кредиторы.</span>
+        </div>
+        <div class="cases__item-row">
+          <span>Результат</span>
+          <span>Процедура банкротства прекращена, основания для привлечения КДЛ к&#160;субсидиарной
+            ответственности минимизированы,
+            требование о&#160;привлечении не&#160;направлялось.</span>
+        </div>
+      </div>
+    </div>
+    <a href="#!" class="cases__item-link" target="_blank">См.&#160;решение суда</a>
+    <div class="cases__item-images">
+      <img src="./images/cases/1.png" alt="case" class="cases__image">
+    </div>
+  </div>
+</div>
+                <div class="swiper-slide">
+  <div class="cases__item">
+    <div class="cases__item-info">
+      <h3 class="cases__item-title">
+        <strong>Минимизировали риски</strong> для КДЛ в&#160;отношении
+        субсидиарной ответственности <strong>ООО&#160;&#171;ГЕРМЕС&#187;,</strong>
+        дело № А56-15050/2022
+      </h3>
+      <div class="cases__item-rows">
+        <div class="cases__item-row">
+          <span>Задачи</span>
+          <span>Минимизировать риски для КДЛ в&#160;отношении субсидиарной ответственности</span>
+        </div>
+        <div class="cases__item-row">
+          <span>Обстоятельства</span>
+          <span>Введена процедура наблюдения по&#160;заявлению должника. Предъявились активные системные
+            кредиторы.</span>
+        </div>
+        <div class="cases__item-row">
+          <span>Результат</span>
+          <span>Процедура банкротства прекращена, основания для привлечения КДЛ к&#160;субсидиарной
+            ответственности минимизированы,
+            требование о&#160;привлечении не&#160;направлялось.</span>
+        </div>
+      </div>
+    </div>
+    <a href="#!" class="cases__item-link" target="_blank">См.&#160;решение суда</a>
+    <div class="cases__item-images">
+      <img src="./images/cases/1.png" alt="case" class="cases__image">
+    </div>
+  </div>
+</div>
+                <div class="swiper-slide">
+  <div class="cases__item">
+    <div class="cases__item-info">
+      <h3 class="cases__item-title">
+        <strong>Минимизировали риски</strong> для КДЛ в&#160;отношении
+        субсидиарной ответственности <strong>ООО&#160;&#171;ГЕРМЕС&#187;,</strong>
+        дело № А56-15050/2022
+      </h3>
+      <div class="cases__item-rows">
+        <div class="cases__item-row">
+          <span>Задачи</span>
+          <span>Минимизировать риски для КДЛ в&#160;отношении субсидиарной ответственности</span>
+        </div>
+        <div class="cases__item-row">
+          <span>Обстоятельства</span>
+          <span>Введена процедура наблюдения по&#160;заявлению должника. Предъявились активные системные
+            кредиторы.</span>
+        </div>
+        <div class="cases__item-row">
+          <span>Результат</span>
+          <span>Процедура банкротства прекращена, основания для привлечения КДЛ к&#160;субсидиарной
+            ответственности минимизированы,
+            требование о&#160;привлечении не&#160;направлялось.</span>
+        </div>
+      </div>
+    </div>
+    <a href="#!" class="cases__item-link" target="_blank">См.&#160;решение суда</a>
+    <div class="cases__item-images">
+      <img src="./images/cases/1.png" alt="case" class="cases__image">
+    </div>
+  </div>
+</div>
+                <div class="swiper-slide">
+  <div class="cases__item">
+    <div class="cases__item-info">
+      <h3 class="cases__item-title">
+        <strong>Минимизировали риски</strong> для КДЛ в&#160;отношении
+        субсидиарной ответственности <strong>ООО&#160;&#171;ГЕРМЕС&#187;,</strong>
+        дело № А56-15050/2022
+      </h3>
+      <div class="cases__item-rows">
+        <div class="cases__item-row">
+          <span>Задачи</span>
+          <span>Минимизировать риски для КДЛ в&#160;отношении субсидиарной ответственности</span>
+        </div>
+        <div class="cases__item-row">
+          <span>Обстоятельства</span>
+          <span>Введена процедура наблюдения по&#160;заявлению должника. Предъявились активные системные
+            кредиторы.</span>
+        </div>
+        <div class="cases__item-row">
+          <span>Результат</span>
+          <span>Процедура банкротства прекращена, основания для привлечения КДЛ к&#160;субсидиарной
+            ответственности минимизированы,
+            требование о&#160;привлечении не&#160;направлялось.</span>
+        </div>
+      </div>
+    </div>
+    <a href="#!" class="cases__item-link" target="_blank">См.&#160;решение суда</a>
+    <div class="cases__item-images">
+      <img src="./images/cases/1.png" alt="case" class="cases__image">
+    </div>
+  </div>
+</div>
+              </div>
+              <div class="swiper-button-prev">
+                <svg class="icon icon--swiper-arrow" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <path fill-rule="evenodd" fill="rgb(208, 217, 208)"
+                    d="M21.500,-0.000 C33.374,-0.000 42.1000,9.626 42.1000,21.500 C42.1000,33.374 33.374,42.1000 21.500,42.1000 C9.626,42.1000 -0.000,33.374 -0.000,21.500 C-0.000,9.626 9.626,-0.000 21.500,-0.000 Z" />
+                  <path fill-rule="evenodd" fill="rgb(50, 64, 67)"
+                    d="M21.500,3.594 C31.389,3.594 39.406,11.611 39.406,21.500 C39.406,31.389 31.389,39.406 21.500,39.406 C11.611,39.406 3.594,31.389 3.594,21.500 C3.594,11.611 11.611,3.594 21.500,3.594 Z" />
+                  <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                    d="M24.488,26.475 L24.488,28.466 L16.522,21.994 L24.488,15.523 L24.488,17.515 L18.514,22.156 L24.488,26.475 Z" />
+                </svg>
+              </div>
+              <div class="swiper-button-next">
+                <svg class="icon icon--swiper-arrow" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <path fill-rule="evenodd" fill="rgb(208, 217, 208)"
+                    d="M21.500,-0.000 C33.374,-0.000 42.1000,9.626 42.1000,21.500 C42.1000,33.374 33.374,42.1000 21.500,42.1000 C9.626,42.1000 -0.000,33.374 -0.000,21.500 C-0.000,9.626 9.626,-0.000 21.500,-0.000 Z" />
+                  <path fill-rule="evenodd" fill="rgb(50, 64, 67)"
+                    d="M21.500,3.594 C31.389,3.594 39.406,11.611 39.406,21.500 C39.406,31.389 31.389,39.406 21.500,39.406 C11.611,39.406 3.594,31.389 3.594,21.500 C3.594,11.611 11.611,3.594 21.500,3.594 Z" />
+                  <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                    d="M24.488,26.475 L24.488,28.466 L16.522,21.994 L24.488,15.523 L24.488,17.515 L18.514,22.156 L24.488,26.475 Z" />
+                </svg>
+              </div>
+            </div>
+            <div class="swiper-pagination cases__pagination up"></div>
+          </div>
+        </div>
+      </section>
+      <section class="consultation" id="consultation">
+        <div class="container">
+          <div class="consultation__inner">
+            <h2 class="title up">Запишитесь на&#160;бесплатную консультацию</h2>
+            <span class="consultation__subtitle up">Работаем с&#160;бизнесменами во&#160;всех городах России!</span>
+            <div class="consultation__info up">
+              На&#160;консультации обсудим варианты решения, ответим на&#160;все вопросы и&#160;согласуем следующий шаг для Вашей
+              защиты.
+              Встречу можно провести как online, так и&#160;в&#160;офисе.
+            </div>
+            <form action="#" class="form uniForm">
+              <!-- Hidden Required Fields -->
+              <input type="hidden" name="project_name" value="Линия Защиты">
+              <input type="hidden" name="admin_email" value="">
+              <input type="hidden" name="form_subject" value="Запись на консультацию">
+              <!-- END Hidden Required Fields -->
+              <div class="form__item up">
+                <input type="text" class="form__input" name="Имя" placeholder="Ваше имя" required>
+              </div>
+              <div class="form__item up">
+                <input type="tel" class="form__input" name="Телефон" placeholder="Ваш телефон" required>
+              </div>
+              <div class="form__item up">
+                <input type="email" class="form__input" name="email" placeholder="Ваше e-mail" required>
+              </div>
+              <div class="form__item up w100">
+                <textarea class="form__input" name="Сообщение" placeholder="Ваше сообщение" required></textarea>
+              </div>
+              <button type="submit" class="form__submit btn up">
+                ПОЛУЧИТЬ ЗАЩИТУ
+                <img class="btn__arrow" src="./images/arrow-btn.png" alt="arrow">
+              </button>
+            </form>
+            <span class="consultation__smalltext up">Нажимая на&#160;кнопку, Вы&#160;соглашаетесь на&#160;обработку персональных
+              данных.</span>
+          </div>
+        </div>
+      </section>
+      <section class="contacts" id="contacts">
+        <div class="container">
+          <div class="contacts__inner">
+            <h2 class="title up">Контакты</h2>
+            <div class="contacts__content">
+              <div class="contacts__left">
+                <div class="contacts__items contacts__items--address">
+                  <div class="contacts__item">
+                    <img src="./images/icons/address.png" alt="address" class="contacts__item-img">
+                    <div class="contacts__item-info">
+                      <span class="contacts__item-subtitle">Адрес офиса:</span>
+                      <span class="contacts__item-title">Г. Санкт-Петербург, Гражданский пр., д.&#160;22,
+                        офис 405</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="contacts__items">
+                  <a class="contacts__item" href="tel:+70000000000">
+                    <img src="./images/icons/phone-2.png" alt="phone" class="contacts__item-img">
+                    <div class="contacts__item-info">
+                      <span class="contacts__item-subtitle">Звоните по&#160;всем вопросам:</span>
+                      <span class="contacts__item-title">+7&#160;(000-00)&#160;0-00-00</span>
+                    </div>
+                  </a>
+                  <a class="contacts__item" href="mailto:liniy-zachitu@yandex.ru">
+                    <img src="./images/icons/mail.png" alt="mail" class="contacts__item-img">
+                    <div class="contacts__item-info">
+                      <span class="contacts__item-subtitle">Или пишите:</span>
+                      <span class="contacts__item-title">liniy-zachitu@yandex.ru</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="contacts__items contacts__items--socials">
+                  <a class="contacts__item" href="#!">
+                    <img src="./images/icons/whatsapp-2.png" alt="whatsapp" class="contacts__item-img">
+                    <div class="contacts__item-info">
+                      <span class="contacts__item-subtitle">WhatsApp</span>
+                      <span class="contacts__item-title">+7&#160;(000-00)&#160;0-00-00</span>
+                    </div>
+                  </a>
+                  <a class="contacts__item" href="@liniy-zachitu">
+                    <img src="./images/icons/telegram-2.png" alt="telegram" class="contacts__item-img">
+                    <div class="contacts__item-info">
+                      <span class="contacts__item-subtitle">Telegram</span>
+                      <span class="contacts__item-title">@liniy-zachitu</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="contacts__right">
+                <img src="./images/contacts/logo.png" alt="logo" class="contacts__logo up">
+                <span class="contacts__logo-subtitle up">
+                  Защита от&#160;наступления
+                  субсидиарной ответственности.
+                  Штатный юрист не&#160;может,
+                  нужны профи.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="map" id="map">
+        <iframe
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3Abb6ba388f008e484deaa99a119571e6aca4106075cc5dc43df9005862eaabd9a&amp;source=constructor"
+          width="100%" height="425" frameborder="0"></iframe>
+      </div>
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <span class="footer__text">&#169; 2024 &#171;Юридическая линия защиты&#187;. Все&#160;права&#160;защищены.</span>
+    </div>
+  </div>
+</footer>
+  </div>
+  <div class="modals">
+  <div class="modal-overlay">
+    <div class="modal modals__statistic" data-target="modal-statistic">
+      <div class="modal__statistic">
+        <button class="modal-close btn-close">
+          <span class="btn-close__line"></span>
+          <span class="btn-close__line"></span>
+        </button>
+        <div class="modal-content">
+          <div class="modal__body">
+            <h2 class="title">Статистика роста привлечения
+              к&#160;субсидиарной ответственности в&#160;России</h2>
+            <span class="modal__statistic-subtitle">
+              Бывает так, что долги компании превращаются в&#160;долги других лиц, в&#160;том числе физических&#160;&#8212; например,
+              соучредителей,
+              директора или главбуха. Это называется субсидиарной ответственностью. В&#160;счёт долгов могут изъять не&#160;только
+              деньги, но&#160;и
+              личное имущество&#160;&#8212; квартиру, машину и&#160;так далее.
+            </span>
+            <div class="modal__statistic-texts">
+              <span>
+                В&#160;2022 году количество удовлетворенных заявлений составило 60% от&#160;общего количества рассмотренных
+                арбитражными судами.
+              </span>
+              <span">
+                Следует отметить, что статистические данные относятся к&#160;заявлениям, рассмотренным в&#160;рамках дел о
+                банкротстве. Что
+                касается дел, рассмотренных в&#160;2022 году вне рамок дел о&#160;банкротстве, то&#160;картина несколько другая.
+                </span>
+            </div>
+            <h3 class="modal__statistic-title-2">
+              <span>Статистические данные</span> ВС&#160;РФ&#160;по&#160;результатам рассмотрения
+              о&#160;привлечения к&#160;СО&#160;в&#160;2022 году
+            </h3>
+            <img src="./images/statistic/img.png" alt="statistic" class="modal__statistic-img">
+            <ul class="modal__statistic-list">
+              <li class="modal__statistic-list-item">
+                Мною были просмотрены решения Арбитражного суда города Москвы по&#160;делам о
+                привлечении к&#160;субсидиарной ответственности за&#160;январь&#8211;март 2022&#160;г.
+              </li>
+              <li class="modal__statistic-list-item">
+                С&#160;точки зрения анализа судебной практики предпочтительнее правовые позиции судов
+                округов, но&#160;важно было проверить, как рассматривают требования истцов суды первой
+                инстанции.
+              </li>
+              <li class="modal__statistic-list-item">
+                За&#160;январь&#8211;март 2022 года было проанализировано 123 дела. В&#160;январе АСГМ вынесено&#160;24
+                решения, в&#160;феврале&#160;&#8212; 36, в&#160;марте&#160;&#8212; 63. Возможно решений было больше, это то, что удалось
+                найти
+              </li>
+            </ul>
+            <button class="btn btn--back modal-close">
+              <img class="btn__arrow" src="./images/arrow-btn.png" alt="arrow">
+              вернуться на&#160;главную
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modals__consultation" data-target="modal-consultation">
+      <div class="modal__consultation">
+        <button class="modal-close btn-close">
+          <span class="btn-close__line"></span>
+          <span class="btn-close__line"></span>
+        </button>
+        <div class="modal-content">
+          <div class="modal__body">
+            <div class="consultation__inner">
+              <h2 class="title">Запишитесь на&#160;бесплатную консультацию</h2>
+              <div class="consultation__info">
+                На&#160;консультации обсудим варианты решения, ответим на&#160;все вопросы и&#160;согласуем следующий шаг для Вашей
+                защиты.
+                Встречу можно провести как online, так и&#160;в&#160;офисе.
+              </div>
+              <form action="#" class="form uniForm">
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="Линия Защиты">
+                <input type="hidden" name="admin_email" value="">
+                <input type="hidden" name="form_subject" value="Запись на консультацию">
+                <!-- END Hidden Required Fields -->
+                <div class="form__item">
+                  <input type="text" class="form__input" name="Имя" placeholder="Ваше имя" required>
+                </div>
+                <div class="form__item">
+                  <input type="tel" class="form__input" name="Телефон" placeholder="Ваш телефон" required>
+                </div>
+                <div class="form__item">
+                  <input type="email" class="form__input" name="email" placeholder="Ваше e-mail" required>
+                </div>
+                <div class="form__item w100">
+                  <textarea class="form__input" name="Сообщение" placeholder="Ваше сообщение" required></textarea>
+                </div>
+                <button type="submit" class="form__submit btn">
+                  ПОЛУЧИТЬ ЗАЩИТУ
+                  <img class="btn__arrow" src="./images/arrow-btn.png" alt="arrow">
+                </button>
+              </form>
+              <span class="consultation__smalltext">Нажимая на&#160;кнопку, Вы&#160;соглашаетесь на&#160;обработку персональных
+                данных.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modals__thank" data-target="modal-thank">
+      <div class="modal__thank">
+        <button class="modal-close btn-close">
+          <span class="btn-close__line"></span>
+          <span class="btn-close__line"></span>
+        </button>
+        <div class="modal-content">
+          <div class="modal__body">
+            <h2 class="modals__thank-title">Спасибо!</h2>
+            <span class="modals__thank-subtitle">Ваше сообщение отправлено!</span>
+            <div class="modals__thank-box">
+              <img src="./images/expert/expert-m.png" alt="expert" class="expert__person-mob">
+              <span class="expert__person-subtitle">эксперт по&#160;защите от&#160;субсидиарной ответственности</span>
+              <span class="expert__person-name">Анастасия Порохова</span>
+              <img src="./images/expert/signature.png" alt="signature" class="expert__person-signature">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modals__consultation modals__call" data-target="modal-call">
+      <div class="modal__consultation">
+        <button class="modal-close btn-close">
+          <span class="btn-close__line"></span>
+          <span class="btn-close__line"></span>
+        </button>
+        <div class="modal-content">
+          <div class="modal__body">
+            <div class="consultation__inner">
+              <h2 class="title">Закажите звонок</h2>
+              <form action="#" class="form uniForm">
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="Линия Защиты">
+                <input type="hidden" name="admin_email" value="">
+                <input type="hidden" name="form_subject" value="Заказ обратного звонка">
+                <!-- END Hidden Required Fields -->
+                <div class="form__item">
+                  <input type="tel" class="form__input" name="Телефон" placeholder="Ваш телефон" required>
+                </div>
+                <button type="submit" class="form__submit btn">
+                  заказать звонок
+                  <img class="btn__arrow" src="./images/arrow-btn.png" alt="arrow">
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="./js/libs.js?_v=091904f733a72c1d28b8ac187a6a04b4"></script>
+  <script src="./js/main.js?_v=091904f733a72c1d28b8ac187a6a04b4"></script>
+</body>
+
+</html>
